@@ -1,0 +1,138 @@
+﻿@page
+@model IdeaTrading.Pages.Views.CreateModel
+@{
+}
+
+<br>
+
+<h2>
+    New Employee
+</h2>
+
+
+@if (Model.errorMessages.Length > 0) 
+{
+    <div class='alert alert-warning alert-dismissible fade show' role='alert'>
+        <strong>@Model.errorMessages</strong>
+        <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+    </div>
+}
+
+<form method="POST">
+
+    <div class="row mb-3">
+
+        <label class="col-sm-3 col-form-label">
+            First Name
+        </label>
+
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="firstName" value="@Model.employeeInfo.firstName">
+        </div>
+
+    </div>
+
+    <div class="row mb-3">
+
+        <label class="col-sm-3 col-form-label">
+            Last Name
+        </label>
+
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="lastName" value="@Model.employeeInfo.lastName">
+        </div>
+
+    </div>
+
+    <div class="row mb-3">
+
+        <label class="col-sm-3 col-form-label">
+            Address
+        </label>
+
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="address" value="@Model.employeeInfo.address">
+        </div>
+
+    </div>
+
+    <div class="row mb-3">
+
+        <label class="col-sm-3 col-form-label">
+            City
+        </label>
+
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="city" value="@Model.employeeInfo.city">
+        </div>
+
+    </div>
+
+    <div class="row mb-3">
+
+        <label class="col-sm-3 col-form-label">
+            Date Of Employment
+        </label>
+
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="dateOfEmployment" value="@Model.employeeInfo.dateOfEmployment">
+        </div>
+
+    </div>
+
+    <div class="row mb-3">
+
+        <label class="col-sm-3 col-form-label">
+            Position
+        </label>
+
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="position" value="@Model.employeeInfo.position">
+        </div>
+
+    </div>
+
+    <div class="row mb-3">
+
+        <label class="col-sm-3 col-form-label">
+            Phone Number
+        </label>
+
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="phone" value="@Model.employeeInfo.phone">
+        </div>
+
+    </div>
+
+
+    @if (Model.successMessages.Length > 0) 
+    {
+        <div class="row mb-3">
+            <div class="col-sm-9">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>
+                        @Model.successMessages
+                    </strong>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+
+                    </button>
+                </div>
+            </div>
+        </div>
+    }
+
+
+    <div class="row mb-3">
+
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Sumbit</button>
+        </div>
+
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="/" role="button">Cancel</a>
+        </div>
+
+    </div>
+
+</form>
