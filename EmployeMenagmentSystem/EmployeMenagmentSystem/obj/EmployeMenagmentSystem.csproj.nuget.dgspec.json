@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Korisnik\\Documents\\GitHub\\ASP-NET-CORE\\EmployeMenagmentSystem\\EmployeMenagmentSystem\\EmployeMenagmentSystem.csproj": {}
+    "C:\\Users\\Ohran\\Documents\\GitHub\\ASP-NET-CORE\\EmployeMenagmentSystem\\EmployeMenagmentSystem\\EmployeMenagmentSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Korisnik\\Documents\\GitHub\\ASP-NET-CORE\\EmployeMenagmentSystem\\EmployeMenagmentSystem\\EmployeMenagmentSystem.csproj": {
+    "C:\\Users\\Ohran\\Documents\\GitHub\\ASP-NET-CORE\\EmployeMenagmentSystem\\EmployeMenagmentSystem\\EmployeMenagmentSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Documents\\GitHub\\ASP-NET-CORE\\EmployeMenagmentSystem\\EmployeMenagmentSystem\\EmployeMenagmentSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Ohran\\Documents\\GitHub\\ASP-NET-CORE\\EmployeMenagmentSystem\\EmployeMenagmentSystem\\EmployeMenagmentSystem.csproj",
         "projectName": "EmployeMenagmentSystem",
-        "projectPath": "C:\\Users\\Korisnik\\Documents\\GitHub\\ASP-NET-CORE\\EmployeMenagmentSystem\\EmployeMenagmentSystem\\EmployeMenagmentSystem.csproj",
-        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Documents\\GitHub\\ASP-NET-CORE\\EmployeMenagmentSystem\\EmployeMenagmentSystem\\obj\\",
+        "projectPath": "C:\\Users\\Ohran\\Documents\\GitHub\\ASP-NET-CORE\\EmployeMenagmentSystem\\EmployeMenagmentSystem\\EmployeMenagmentSystem.csproj",
+        "packagesPath": "C:\\Users\\Ohran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ohran\\Documents\\GitHub\\ASP-NET-CORE\\EmployeMenagmentSystem\\EmployeMenagmentSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ohran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

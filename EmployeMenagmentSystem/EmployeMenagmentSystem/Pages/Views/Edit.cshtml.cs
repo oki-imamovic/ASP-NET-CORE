@@ -18,7 +18,7 @@ namespace IdeaTrading.Pages.Views
 
             try
             {
-                String connectionString = "Data Source=.\\sqlexpress;Initial Catalog=dbTest;Integrated Security=True";
+                String connectionString = "Data Source=.\\sqlexpress;Initial Catalog=testDb;Integrated Security=True";
                 using (SqlConnection connection = new SqlConnection(connectionString)) 
                 {
                     connection.Open();
@@ -75,7 +75,7 @@ namespace IdeaTrading.Pages.Views
 
             try
             {
-                String connectionString = "Data Source=.\\sqlexpress;Initial Catalog=dbTest;Integrated Security=True";
+                String connectionString = "Data Source=.\\sqlexpress;Initial Catalog=testDb;Integrated Security=True";
                 using (SqlConnection connection = new SqlConnection(connectionString)) 
                 {
                     connection.Open();
